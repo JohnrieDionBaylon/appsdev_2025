@@ -1,0 +1,16 @@
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\bin\Debug\net8.0-windows\SimpleFormsAppWithComboBox.exe
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\bin\Debug\net8.0-windows\SimpleFormsAppWithComboBox.deps.json
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\bin\Debug\net8.0-windows\SimpleFormsAppWithComboBox.runtimeconfig.json
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\bin\Debug\net8.0-windows\SimpleFormsAppWithComboBox.dll
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\bin\Debug\net8.0-windows\SimpleFormsAppWithComboBox.pdb
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.Form1.resources
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.csproj.GenerateResource.cache
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.AssemblyInfoInputs.cache
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.AssemblyInfo.cs
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.csproj.CoreCompileInputs.cache
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.dll
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\refint\SimpleFormsAppWithComboBox.dll
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.pdb
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\SimpleFormsAppWithComboBox.genruntimeconfig.cache
+C:\Users\RYZEN 3 2200G\source\repos\SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox\obj\Debug\net8.0-windows\ref\SimpleFormsAppWithComboBox.dll
