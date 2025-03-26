@@ -1,9 +1,8 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFormsAppWithComboBox", "SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox.csproj", "{8B53C6F5-5AB6-4006-89AA-5F243A7159A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFormsAppWithComboBox", "SimpleFormsAppWithComboBox\SimpleFormsAppWithComboBox.csproj", "{50C05939-C92D-4519-A4ED-EF9B4B433A04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B53C6F5-5AB6-4006-89AA-5F243A7159A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B53C6F5-5AB6-4006-89AA-5F243A7159A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B53C6F5-5AB6-4006-89AA-5F243A7159A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B53C6F5-5AB6-4006-89AA-5F243A7159A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C05939-C92D-4519-A4ED-EF9B4B433A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C05939-C92D-4519-A4ED-EF9B4B433A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C05939-C92D-4519-A4ED-EF9B4B433A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C05939-C92D-4519-A4ED-EF9B4B433A04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5CD81613-A3C5-4FD3-B2A5-005CDCB03576}
+		SolutionGuid = {47707A3A-8A53-4D44-8E68-9DE3580DF41E}
 	EndGlobalSection
 EndGlobal

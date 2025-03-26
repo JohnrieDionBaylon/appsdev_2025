@@ -28,157 +28,150 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            movieCheckedListBox = new CheckedListBox();
-            favoriteListBox = new ListBox();
-            removeButton = new Button();
-            clearButton = new Button();
-            genreComboBox = new ComboBox();
-            addButton = new Button();
-            button1 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            textBox1 = new TextBox();
+            pictureBox1 = new PictureBox();
+            listBox = new ListBox();
+            comboBox = new ComboBox();
+            addBtn_Click = new Button();
+            checkedListBox = new CheckedListBox();
+            removeBtn_Click = new Button();
+            clrBtn_Click = new Button();
+            slctBtn_Click = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // textBox1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(24, 18);
-            label1.Name = "label1";
-            label1.Size = new Size(159, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Simple Favorite Movie Picker";
+            textBox1.BackColor = Color.SaddleBrown;
+            textBox1.Font = new Font("Script MT Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(363, 47);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(284, 40);
+            textBox1.TabIndex = 0;
+            textBox1.Text = "Favorite Food Picker App";
             // 
-            // label2
+            // pictureBox1
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(24, 58);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Genre";
+            pictureBox1.BackColor = Color.LightSalmon;
+            pictureBox1.Location = new Point(345, 24);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(316, 52);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
-            // label3
+            // listBox
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(169, 58);
-            label3.Name = "label3";
-            label3.Size = new Size(61, 15);
-            label3.TabIndex = 2;
-            label3.Text = "Movie List";
-            label3.Click += label3_Click;
+            listBox.BackColor = Color.Chocolate;
+            listBox.FormattingEnabled = true;
+            listBox.Location = new Point(536, 133);
+            listBox.Name = "listBox";
+            listBox.Size = new Size(150, 184);
+            listBox.TabIndex = 2;
             // 
-            // label4
+            // comboBox
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(314, 58);
-            label4.Name = "label4";
-            label4.Size = new Size(126, 15);
-            label4.TabIndex = 3;
-            label4.Text = "My Favorite Movie List";
+            comboBox.BackColor = Color.Peru;
+            comboBox.Font = new Font("Modern No. 20", 10.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            comboBox.FormattingEnabled = true;
+            comboBox.Location = new Point(73, 133);
+            comboBox.Name = "comboBox";
+            comboBox.Size = new Size(151, 28);
+            comboBox.TabIndex = 3;
+            comboBox.SelectedIndexChanged += comboBox_SelectedIndexChanged;
             // 
-            // movieCheckedListBox
+            // addBtn_Click
             // 
-            movieCheckedListBox.FormattingEnabled = true;
-            movieCheckedListBox.Location = new Point(169, 75);
-            movieCheckedListBox.Name = "movieCheckedListBox";
-            movieCheckedListBox.Size = new Size(120, 94);
-            movieCheckedListBox.TabIndex = 5;
-            movieCheckedListBox.SelectedIndexChanged += movieCheckedListBox_SelectedIndexChanged;
+            addBtn_Click.BackColor = Color.Peru;
+            addBtn_Click.Font = new Font("Magneto", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            addBtn_Click.Location = new Point(312, 354);
+            addBtn_Click.Name = "addBtn_Click";
+            addBtn_Click.Size = new Size(151, 29);
+            addBtn_Click.TabIndex = 4;
+            addBtn_Click.Text = "ADD";
+            addBtn_Click.UseVisualStyleBackColor = false;
+            addBtn_Click.Click += addBtn_CLick_Click;
             // 
-            // favoriteListBox
+            // checkedListBox
             // 
-            favoriteListBox.FormattingEnabled = true;
-            favoriteListBox.ItemHeight = 15;
-            favoriteListBox.Location = new Point(314, 76);
-            favoriteListBox.Name = "favoriteListBox";
-            favoriteListBox.Size = new Size(149, 94);
-            favoriteListBox.TabIndex = 6;
-            favoriteListBox.SelectedIndexChanged += favoriteListBox_SelectedIndexChanged;
+            checkedListBox.BackColor = Color.Chocolate;
+            checkedListBox.FormattingEnabled = true;
+            checkedListBox.Location = new Point(313, 133);
+            checkedListBox.Name = "checkedListBox";
+            checkedListBox.Size = new Size(150, 180);
+            checkedListBox.TabIndex = 5;
+            checkedListBox.SelectedIndexChanged += checkedListBox_SelectedIndexChanged;
             // 
-            // removeButton
+            // removeBtn_Click
             // 
-            removeButton.Location = new Point(469, 75);
-            removeButton.Name = "removeButton";
-            removeButton.Size = new Size(75, 23);
-            removeButton.TabIndex = 7;
-            removeButton.Text = "Remove";
-            removeButton.UseVisualStyleBackColor = true;
-            removeButton.Click += removeButton_Click;
+            removeBtn_Click.BackColor = Color.Peru;
+            removeBtn_Click.Font = new Font("Modern No. 20", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            removeBtn_Click.Location = new Point(769, 133);
+            removeBtn_Click.Name = "removeBtn_Click";
+            removeBtn_Click.Size = new Size(133, 29);
+            removeBtn_Click.TabIndex = 6;
+            removeBtn_Click.Text = "REMOVE";
+            removeBtn_Click.UseVisualStyleBackColor = false;
+            removeBtn_Click.Click += rmvBtn_Click;
             // 
-            // clearButton
+            // clrBtn_Click
             // 
-            clearButton.Location = new Point(469, 104);
-            clearButton.Name = "clearButton";
-            clearButton.Size = new Size(75, 23);
-            clearButton.TabIndex = 8;
-            clearButton.Text = "Clear";
-            clearButton.UseVisualStyleBackColor = true;
-            clearButton.Click += clearButton_Click;
+            clrBtn_Click.BackColor = Color.Peru;
+            clrBtn_Click.Font = new Font("Modern No. 20", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            clrBtn_Click.Location = new Point(769, 208);
+            clrBtn_Click.Name = "clrBtn_Click";
+            clrBtn_Click.Size = new Size(133, 29);
+            clrBtn_Click.TabIndex = 7;
+            clrBtn_Click.Text = "CLEAR ALL";
+            clrBtn_Click.UseVisualStyleBackColor = false;
+            clrBtn_Click.Click += button3_Click;
             // 
-            // genreComboBox
+            // slctBtn_Click
             // 
-            genreComboBox.FormattingEnabled = true;
-            genreComboBox.Location = new Point(24, 76);
-            genreComboBox.Name = "genreComboBox";
-            genreComboBox.Size = new Size(121, 23);
-            genreComboBox.TabIndex = 10;
-            genreComboBox.SelectedIndexChanged += genreComboBox_SelectedIndexChanged;
-            // 
-            // addButton
-            // 
-            addButton.Location = new Point(169, 175);
-            addButton.Name = "addButton";
-            addButton.Size = new Size(120, 23);
-            addButton.TabIndex = 11;
-            addButton.Text = "Add";
-            addButton.UseVisualStyleBackColor = true;
-            addButton.Click += addButton_Click;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(24, 105);
-            button1.Name = "button1";
-            button1.Size = new Size(121, 23);
-            button1.TabIndex = 12;
-            button1.Text = "Select";
-            button1.UseVisualStyleBackColor = true;
+            slctBtn_Click.BackColor = Color.Peru;
+            slctBtn_Click.ForeColor = Color.Black;
+            slctBtn_Click.Location = new Point(73, 226);
+            slctBtn_Click.Name = "slctBtn_Click";
+            slctBtn_Click.Size = new Size(151, 29);
+            slctBtn_Click.TabIndex = 8;
+            slctBtn_Click.Text = "SELECT";
+            slctBtn_Click.UseVisualStyleBackColor = false;
+            slctBtn_Click.Click += slctBtn_Click_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(556, 232);
-            Controls.Add(button1);
-            Controls.Add(addButton);
-            Controls.Add(genreComboBox);
-            Controls.Add(clearButton);
-            Controls.Add(removeButton);
-            Controls.Add(favoriteListBox);
-            Controls.Add(movieCheckedListBox);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1169, 501);
+            Controls.Add(slctBtn_Click);
+            Controls.Add(clrBtn_Click);
+            Controls.Add(removeBtn_Click);
+            Controls.Add(checkedListBox);
+            Controls.Add(addBtn_Click);
+            Controls.Add(comboBox);
+            Controls.Add(listBox);
+            Controls.Add(textBox1);
+            Controls.Add(pictureBox1);
             Name = "Form1";
-            Text = "Movie Form App";
+            Text = "Form1";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private CheckedListBox movieCheckedListBox;
-        private ListBox favoriteListBox;
-        private Button removeButton;
-        private Button clearButton;
-        private ComboBox genreComboBox;
-        private Button addButton;
-        private Button button1;
+        private TextBox textBox1;
+        private PictureBox pictureBox1;
+        private ListBox listBox;
+        private ComboBox comboBox;
+        private Button addBtn_Click;
+        private CheckedListBox checkedListBox;
+        private Button removeBtn_Click;
+        private Button clrBtn_Click;
+        private Button slctBtn_Click;
     }
 }
